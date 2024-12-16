@@ -1,0 +1,43 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "coverage": "SOLIDITY_COVERAGE=true npx hardhat coverage",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^0.15.8",
+    "@nomicfoundation/hardhat-ignition-viem": "^0.15.8",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
+    "@nomicfoundation/hardhat-viem": "^2.0.6",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.0",
+    "@types/chai": "^5.0.1",
+    "@types/chai-as-promised": "^8.0.1",
+    "@types/chai-string": "^1.4.5",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.10.1",
+    "chai": "^4.5.0",
+    "chai-as-promised": "^8.0.1",
+    "chai-string": "^1.5.0",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-mocha": "^10.5.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "hardhat": "^2.22.17",
+    "hardhat-chai-matchers": "link:@@nomicfoundation/hardhat-chai-matchers",
+    "hardhat-gas-reporter": "^2.2.2",
+    "hardhat-storage-layout": "^0.1.7",
+    "prettier": "3.4.2",
+    "prettier-plugin-solidity": "^1.4.1",
+    "solidity-coverage": "^0.8.14",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.2",
+    "viem": "^2.21.54"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8"
+  }
+}
